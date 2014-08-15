@@ -225,7 +225,7 @@ function searchImage(){
 		} else {
 			// here we inject jQuery
 			console.log("start to wait server responding");
-			//var injectStatus = page.injectJs('jquery-1.11.1.min.js');
+			//var injectStatus = page.injectJs('../3party/jquery-1.11.1.min.js');
 			//console.log("inject jquery finished.[result]"+injectStatus);
 			waitFor(function() {
 				// Check in the page if a specific element is now visible

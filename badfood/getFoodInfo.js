@@ -113,7 +113,7 @@ page.open(url, function (status) {
 		// here we inject jQuery
 		console.log("start to wait server responding");
 		//inject jQuery
-		var injectStatus = page.injectJs('jquery-1.11.1.min.js');
+		var injectStatus = page.injectJs('../3party/jquery-1.11.1.min.js');
 		console.log("inject jquery finished.[result]"+injectStatus);
 		//inject MD5
 		var injectMD5 = page.injectJs('md5_plain.js');
